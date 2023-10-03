@@ -1,0 +1,13 @@
+ALGORITHM palyndrom
+VAR
+    mot:STRING
+BEGIN
+    Read(mot)
+ IF (mots.length<=1) THEN
+    Write("le mot est  palyndrom")
+ END_IF
+ IF (mot[0]<>mot[mot.length-1]) THEN
+    Write("le mot n'est pas palyndrom")
+ END_IF
+ palyndrom(mot[1,-1])
+END
